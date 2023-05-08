@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calorie Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <body>
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#">Home</a>
+        <a href="#Calculator">Calculator</a>
+        <a href="#About">About</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Calorie Calculator</h1>
+        <p>Find out how many calories you need to maintain, lose, or gain weight.</p>
+        <a href="#home" class="cta-btn">Get Started</a>
+      </div>
+    </section>
+    <section id="About">
+    </section>
+    <section class="calorie calculator">
+      <h2>Calorie calculator</h2>
+    <p id="my-paragraph">The Calorie Calculator can be used to estimate the number of calories a person needs to consume each day. This calculator can also provide some simple guidelines for gaining or losing weight.An ideal daily intake of calories varies depending on age, metabolism and levels of physical activity, among other things. Generally, the recommended daily calorie intake is 2,000 calories a day for women and 2,500 for men.</p>
+    <h2>How can a calorie calculator help me?</h2>
+    <p id="my-paragraph">A calorie calculator will help you estimate the number of calories you need for daily maintenance, weight loss, or weight gain by considering your age, sex, height, weight, and activity level.
+
+      Counting calories is a key component of self-monitoring and allows you to track your behaviors and progress in order to meet your health and fitness goals. Studies have shown that individuals who use digital tracking such as calorie calculators and counters as part of their weight-loss strategy tend to lose more weight than those who do not.
+      
+      Self-monitoring is an essential component of any behavioral change program. It includes monitoring a behavior—such as food intake—and requires that you track your progress with some measurable outcome related to that behavior. Monitoring metrics such as body weight enables you to track your progress for the purpose of meeting your goals. Self-monitoring is also said to increase awareness, self-efficacy, and accountability, which are all considered important aspects of success in any behavioral change program. 
+      
+      A calorie calculator can also help you estimate how many calories you burn in a day or the number of calories your body burns when resting, known as your resting energy expenditure (REE). Your REE is determined by size, age, sex, and lean body mass. You can impact your REE by building and maintaining lean muscle through regular strength training and a healthy diet with adequate protein. Maintaining lean body mass is especially important as you age. The loss of lean body mass that is experienced during aging is the primary reason people say their metabolism slows as they age.</p>
+
+  </section>
+  <section id="home">
+  </section>
+  <section id="Calculator">
+  </section>
+  
+    <section class="calculator">
+			<h2>Calculate Your Daily Calorie Needs</h2>
+			<form>
+				<label for="age">Age:</label>
+				<input type="number" id="age" name="age" required>
+
+				<label for="gender">Gender:</label>
+				<select id="gender" name="gender">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+				</select>
+
+				<label for="height">Height (in cm):</label>
+				<input type="number" id="height" name="height" required>
+
+				<label for="weight">Weight (in kg):</label>
+				<input type="number" id="weight" name="weight" required>
+
+				<label for="activity-level">Activity Level:</label>
+				<select id="activity-level" name="activity-level">
+					<option value="sedentary">Sedentary (little or no exercise)</option>
+					<option value="lightly-active">Lightly Active (light exercise or sports 1-3 days a week)</option>
+					<option value="moderately-active">Moderately Active (moderate exercise or sports 3-5 days a week)</option>
+					<option value="very-active">Very Active (hard exercise or sports 6-7 days a week)</option>
+					<option value="extra-active">Extra Active (very hard exercise or sports, physical job or training twice a day)</option>
+				</select>
+
+				<button type="submit">Calculate</button>
+			</form>
+		</section>
+		<section class="result">
+			<h2>Result</h2>
+			<p>Your daily calorie needs are:</p>
+			<p id="calorie-result"></p>
+      <style>
+        </style>
+		</section>
+	</main>
+  <section id="Contact">
+	<footer>
+    <h2>contact</h2>
+    <p>For any queries Email us-vikrambooshanam@gmail.com</p>
+		<p>&copy; 2023 Calorie Calculator. All rights reserved.</p>
+    
+  </footer>
+</section>
+	<script src="script.js"></script>
+</body>
+</html>
